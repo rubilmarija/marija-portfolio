@@ -9,11 +9,6 @@
     /*background: var(--color-footer);*/
 }
 
-.footer.section__padding {
-  margin: 0;
-  padding: 0;
-}
-
 .custom-shape-divider-bottom-1679134916 {
     position: absolute;
     bottom: 0;
@@ -43,7 +38,10 @@
 }*/
 
 .footer-heading {
+    flex: 1;
+    display: flex;
     text-align: center;
+    position: relative;
 }
 
 .footer-heading h1 {
@@ -62,11 +60,13 @@
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;
 }
 
 .footer-links div {
     width: 80px;
     justify-content: space-between;
+    position: relative;
 }
 
 /*
@@ -98,6 +98,7 @@
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
+
 }
 
 /*
