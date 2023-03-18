@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=PT+Mono&family=Sedgwick+Ave&family=Source+Code+Pro:ital,wght@1,400;1,500&family=Space+Mono&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: "Comfortaa", cursive;
+
+  --gradient-text: linear-gradient(207deg,
+      rgba(142, 151, 120, 1) 28%,
+      rgba(17, 50, 77, 1) 100%);
+  --gradient-bar: linear-gradient(207deg,
+      rgba(142, 151, 120, 1) 28%,
+      rgba(17, 50, 77, 1) 100%);
+
+  --color-bg: #fff5eb;
+  --color-footer: #b2b8a3;
+  --color-blog: #042c54;
+  --color-text: #11324d;
+  --color-subtext: #ff8a71;
+
+  --gradient-cta: linear-gradient(90deg,
+      rgba(222, 237, 240, 1) 0%,
+      rgba(244, 199, 171, 1) 73%,
+      rgba(178, 184, 163, 1) 100%);
 }
