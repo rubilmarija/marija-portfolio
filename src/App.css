@@ -4,13 +4,14 @@
 
   scroll-behavior: smooth;
 
-
 }
 
 
 body {
   background: var(--color-bg);
   margin: 1rem;
+
+
 }
 
 a {
@@ -70,7 +71,7 @@ a {
 }
 
 .section__margin {
-  margin: 2rem 6rem;
+  margin: 2rem 3rem;
 }
 
 .bounce-in-top {

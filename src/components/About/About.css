@@ -1,0 +1,112 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+}
+
+.aboutMe-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.aboutMe-heading h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.aboutMe-heading div{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+    margin-right: 4rem;
+}
+
+.aboutMe-feature {
+    font-family: var(--font-family);
+    color: var(--color-blog);
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.aboutMe-feature p {
+    color: var(--color-blog);
+    margin-left: 1rem;
+}
+
+.expand-section__about-me {
+    margin-left: 1rem;
+}
+
+.expand-section__about-me button {
+    padding: 0.5rem;
+
+   
+}
+
+@media screen and (max-width: 850px) {
+    .aboutMe-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .aboutMe-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .aboutMe-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .aboutMe-container {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
