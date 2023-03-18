@@ -3,6 +3,8 @@
   padding: 0;
 
   scroll-behavior: smooth;
+
+
 }
 
 body {
@@ -15,42 +17,44 @@ a {
   text-decoration: none;
 }
 
-.gradient__bg {
-  /* ff 3.6+ */
+ /* .gradient__bg {
+
+ ff 3.6+ 
   background: -moz-radial-gradient(circle at 0% 0%,
       #fff5eb 0%,
       #deedf0 33%,
       #f4c7ab 64%,
       #b2b8a3 100%);
-
-  /* safari 5.1+,chrome 10+ */
+*/
+  /* safari 5.1+,chrome 10+ 
   background: -webkit-radial-gradient(circle at 0% 0%,
       #fff5eb 0%,
       #deedf0 33%,
       #f4c7ab 64%,
       #b2b8a3 100%);
-
-  /* opera 11.10+ */
+*/
+  /* opera 11.10+ 
   background: -o-radial-gradient(circle at 0% 0%,
       #fff5eb 0%,
       #deedf0 33%,
       #f4c7ab 64%,
       #b2b8a3 100%);
-
-  /* ie 10+ */
+*/
+  /* ie 10+ 
   background: -ms-radial-gradient(circle at 0% 0%,
       #fff5eb 0%,
       #deedf0 33%,
       #f4c7ab 64%,
       #b2b8a3 100%);
-
-  /* global 92%+ browsers support */
+*/
+  /* global 92%+ browsers support 
   background: radial-gradient(circle at 0% 0%,
       #fff5eb 0%,
       #deedf0 33%,
       #f4c7ab 64%,
       #b2b8a3 100%);
-}
+  
+}*/
 
 .gradient__text {
   background: var(--gradient-text);
