@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import './Projects.css';
-import portfolio from '../../assets/portfolio.json'
+import portfolio from '../../assets/portfolio.json';
 
 const Projects = () => {
     return (

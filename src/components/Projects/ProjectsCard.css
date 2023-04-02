@@ -53,6 +53,7 @@
     margin: 1rem;
 }
 
+/* Media Queries */
 
 @media (min-width: 730px) and (max-width: 930px) {
     .card {

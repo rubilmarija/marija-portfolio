@@ -3,7 +3,6 @@ import './ProjectsCard.css';
 
 const ProjectsCard = ({ title, image, description, github, site }) => {
     return (
-
         <div class="card">
             <img src={image} />
             <div>

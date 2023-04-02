@@ -4,7 +4,9 @@
     justify-content: space-around;
     border-radius: 24px;
     padding: 2rem;
-/* ff 3.6+ */
+
+    /* Background gradient */
+    /* ff 3.6+ */
     background: -moz-radial-gradient(circle at 100% 0%,
             #fff5eb 0%,
             #deedf0 50%,
@@ -48,6 +50,9 @@
         flex-direction: row;
 }
 
+
+/* Media Queries */
+
 @media screen and (min-width: 1500px) {
         .projects-container, .cards-container {
                 display: flex;
@@ -69,7 +74,6 @@
         }
 }
 
-
 @media (min-width: 1024px) and (max-width: 1200px) {
         .cards-container {
                 margin: 0 20px;
@@ -79,7 +83,6 @@
                 text-align: center;
                 flex-direction: column;
         }
-        
 }
 
 @media (min-width: 769px) and (max-width: 1023px) {
@@ -101,7 +104,7 @@
                 width: 50%;
                 text-align: center;
                 flex-direction: column;
-                }
+        }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
