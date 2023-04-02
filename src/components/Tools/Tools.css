@@ -1,0 +1,75 @@
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 24px;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 100% 0%,
+     #fff5eb 0%,
+     #deedf0 50%,
+     #ebeee8 100%);
+            
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 100% 0%,
+     #fff5eb 0%,
+     #deedf0 50%,
+     #ebeee8 100%);
+        
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 100% 0%,
+     #fff5eb 0%,
+     #deedf0 50%,
+     #ebeee8 100%);
+        
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 100% 0%,
+     #fff5eb 0%,
+     #deedf0 50%,
+     #ebeee8 100%);
+        
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 100% 0%,
+     #fff5eb 0%,
+     #deedf0 50%,
+     #ebeee8 100%);
+}
+
+.tools-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.tools-heading h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.aboutMe-feature {
+    margin-bottom: 0.4rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    color: var(--color-blog);
+    font-size: 70px;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .tools-container, .icons {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+}
