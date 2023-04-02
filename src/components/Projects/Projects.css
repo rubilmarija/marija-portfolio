@@ -1,0 +1,85 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 24px;
+    padding: 2rem;
+/* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 100% 0%,
+            #fff5eb 0%,
+            #deedf0 50%,
+            #ebeee8 100%);
+}
+
+.projects-heading h1 {
+        font-size: 30px;
+        line-height: 45px;
+        font-weight: 800;
+        font-family: var(--font-family);
+        max-width: 510px;
+}
+
+.cards-container {
+        display: flex;
+        flex-direction: row;
+}
+
+@media (max-width: 1500px) {
+        .cards-container {
+                margin: 0 40px;
+                padding-left: 50px;
+                padding-right: 50px;
+                width: 50%;
+                text-align: center;
+                flex-direction: column;
+        }
+}
+
+
+@media (min-width: 1020px) and (max-width: 1500px) {
+        .cards-container {
+                margin: 0 20px;
+                padding-left: 40px;
+                padding-right: 40px;
+                width: 50%;
+                text-align: center;
+                flex-direction: column;
+        }
+        
+}
+
+@media (min-width: 730px) and (max-width: 1020px) {
+        .cards-container {
+                margin-left: -60px;
+                padding-left: 40px;
+                padding-right: 40px;
+                width: 50%;
+                text-align: center;
+                flex-direction: column;
+        }
+}
+
