@@ -2,11 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 1rem;
-
-
-  
 }
 
 .custom-shape-divider-top-1679127327 {
@@ -36,7 +32,6 @@
   justify-content: flex-start;
   align-items: center;
   position: relative;
-  
 }
 
 .navbar-links div {
@@ -52,7 +47,6 @@
 .link:hover {
 
 }
-
 
 .link {
     border: 1px solid rgba(255, 255, 255, .25);
@@ -70,7 +64,6 @@
 }
 */
 
-
 .navbar-links_container,
 .navbar-sign,
 .navbar-menu_container {
@@ -84,13 +77,12 @@
   flex-direction: row;
   margin: 0 0.5rem;
   cursor: pointer;
-position: relative;
+  position: relative;
 }
 
 .navbar-links_container div {
     padding: 0.8rem;
 }
-
 
 .navbar-sign button,
 .navbar-menu_container button {

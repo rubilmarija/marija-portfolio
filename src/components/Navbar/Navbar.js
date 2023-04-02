@@ -7,8 +7,6 @@ import { faCat } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
 
-
-
     return (
         <div>
             <div class="custom-shape-divider-top-1679127327">

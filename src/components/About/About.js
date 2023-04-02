@@ -16,7 +16,7 @@ const About = () => {
             </div>
 
             <div className='aboutMe-feature'>
-                <p>I am Stockholm based Frontend Developer, passionate about bringing creativity to web.</p>
+                <p>I am Frontend Developer.</p>
             </div>
 
             <div className='expand-section__about-me'>
