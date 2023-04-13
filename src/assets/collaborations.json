@@ -1,26 +1,26 @@
 [
-     {
-        "title": "Abolish the Monarchy Game",
-        "image": "",
-        "github": "https://github.com/rubilmarija/Aabolish-the-monarchy.git",
-        "site": "https://abolishthemonarchy.netlify.app/"
-    },
-     {
-        "title": "Expense Planning Tracker",
-        "image": "",
-        "github": "https://github.com/rubilmarija/expense-planning-tracker.git",
-        "site": "https://graceful-gecko-f0835c.netlify.app/"
-    },
-     {
-        "title": "Inner Journeys Website",
-        "image": "",
-        "github": "https://github.com/rubilmarija/inner-journeys-collab.git",
-        "site": "https://hilarious-kitten-abef04.netlify.app/"
-    },
-     {
-        "title": "",
-        "image": "",
-        "github": "",
-        "site": ""
-    }
+  {
+    "title": "Abolish the Monarchy Game",
+    "image": "./assets/abolishthemonarchy.png",
+    "github": "https://github.com/rubilmarija/Aabolish-the-monarchy.git",
+    "site": "https://abolishthemonarchy.netlify.app/"
+  },
+  {
+    "title": "Expense Planning Tracker",
+    "image": "./assets/expensetracker.png",
+    "github": "https://github.com/rubilmarija/expense-planning-tracker.git",
+    "site": "https://graceful-gecko-f0835c.netlify.app/"
+  },
+  {
+    "title": "Inner Journeys Website",
+    "image": "",
+    "github": "https://github.com/rubilmarija/inner-journeys-collab.git",
+    "site": "https://hilarious-kitten-abef04.netlify.app/"
+  },
+  {
+    "title": "",
+    "image": "",
+    "github": "",
+    "site": ""
+  }
 ]
