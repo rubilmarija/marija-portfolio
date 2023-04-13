@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 26vh;
+    /* height: 26vh; */
     margin-top: 5rem;
     /*background: var(--color-footer);*/
 }
@@ -31,12 +31,6 @@
     fill: #FF8A71;
 }
 
-/*
-.color-block {
-    height: 300px;
-   
-}*/
-
 .footer-heading {
     display: flex;
     text-align: center;
@@ -52,6 +46,19 @@
     letter-spacing: -0.04rem;
     color: #11324d;
 }
+
+.footer-form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    position: relative;
+    gap: 1rem;
+    flex-direction: column;
+}
+
 
 .footer-links {
     display: flex;

@@ -1,9 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FiLinkedin, FiGithub, FiSlack } from 'react-icons/fi';
-
-
 
 const Footer = () => {
     return (
@@ -21,10 +18,10 @@ const Footer = () => {
 
             <div className='footer-links'>
                 <div className='footer-links_div'>
-                    <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank' ><FiLinkedin size="3em" color="#CCE3E8" /></a>
+                    <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank'><FiLinkedin size="3em" color="#CCE3E8" /></a>
                 </div>
                 <div className='footer-links_div'>
-                    <a href="https://github.com/rubilmarija" target='_blank' > <FiGithub size="3em" color="#CCE3E8" /></a>
+                    <a href="https://github.com/rubilmarija" target='_blank'> <FiGithub size="3em" color="#CCE3E8" /></a>
                 </div>
                 <div className='footer-links_div'>
                     <FiSlack size="3em" color="#CCE3E8" />
