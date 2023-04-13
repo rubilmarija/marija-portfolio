@@ -6,6 +6,7 @@ import { AiOutlineHtml5 } from "react-icons/ai";
 import { TbBrandCss3, TbBrandVscode, TbBrandBootstrap, TbBrandTailwind } from "react-icons/tb";
 import { RiReactjsFill } from "react-icons/ri";
 import { BsGit } from "react-icons/bs";
+import { SiExpress, SiPostgresql, SiMongodb } from "react-icons/si";
 
 const Tools = () => {
     return (
@@ -25,6 +26,9 @@ const Tools = () => {
                 <div className='icon'> <FaNodeJs /></div>
                 <div className='icon'> <TbBrandVscode /></div>
                 <div className='icon'> <BsGit /></div>
+                <div className='icon'> <SiExpress /></div>
+                <div className='icon'> <SiPostgresql /></div>
+                <div className='icon'> <SiMongodb /></div>
                 <div className='icon'> <TbBrandBootstrap /></div>
                 <div className='icon'> <TbBrandTailwind /></div>
                 <div className='icon'> <FaFigma /></div>

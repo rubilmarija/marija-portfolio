@@ -40,7 +40,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 1rem 0 1rem ;
 }
 
 .tools-heading h1 {
@@ -49,6 +49,10 @@
     font-weight: 800;
     font-family: var(--font-family);
     max-width: 510px;
+}
+
+.gradient__text {
+    margin-bottom: 0;
 }
 
 .aboutMe-feature {
@@ -66,7 +70,12 @@
     padding: 1rem;
 }
 
-@media screen and (max-width: 1200px) {
+.icon:hover {
+    color: var(--color-subtext);
+    scale: 1.2;
+}
+
+@media screen and (max-width: 1400px) {
     .tools-container, .icons {
         display: flex;
         flex-wrap: wrap;
