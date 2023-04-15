@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import { faCat } from '@fortawesome/free-solid-svg-icons';
+import { FaCat } from 'react-icons/fa';
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -19,15 +18,15 @@ const Navbar = () => {
             <div className='navbar'>
                 <div className='navbar-links'>
                     <div className='navbar-links_container bounce-in-top'>
-                        <div className='navbar-links_logo'><FontAwesomeIcon icon={faCat} /></div>
+                        <div className='navbar-links_logo'><FaCat /></div>
                         <div className='link'>About me</div>
                         <div className='link'>Projects</div>
-                        <div className='link'>Tools</div>
-                        <div className='link'>Contact me</div>
+                        <div className='link'>Skills</div>
+                        <div className='link'>Let's connect</div>
                     </div>
                 </div>
                 <div className='navbar-sign'>
-                    <button type='button'>Contact me</button>
+                    <button type='button'> <a href="mailto: rubilmarija@gmail.com">Contact me</a> </button>
                 </div>
                 <div className='navbar-menu'>
                     {toggleMenu
@@ -37,11 +36,11 @@ const Navbar = () => {
                     {toggleMenu && (
                         <div className='navbar-menu_container scale-up-center'>
                             <div className='navbar-menu_container-links'>
-                                <div className='navbar-links_logo'><FontAwesomeIcon icon={faCat} /></div>
+                                <div className='navbar-links_logo'><FaCat /></div>
                                 <div>About me</div>
                                 <div>Projects</div>
-                                <div>Tools</div>
-                                <div>Contact me</div>
+                                <div>Skills</div>
+                                <div>Let's connect</div>
                                 <div className='navbar-menu_container-links-sign'>
                                     <button type='button'>Contact me</button>
                                 </div>
