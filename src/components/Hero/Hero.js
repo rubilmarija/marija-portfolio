@@ -31,7 +31,7 @@ const Hero = () => {
                     data-aos-delay="50"
                     data-aos-duration="900"
                 >
-                    <p>Front End Developer</p>
+                    <p>Frontend Developer</p>
                     <p>Welcome to my website!</p>
                     <p>As a proactive and organized individual with a background in administration and public procurement, I have a keen eye for detail and capable to administer numerous tasks to meet tight deadlines without compromising quality.</p>
                     <p>
