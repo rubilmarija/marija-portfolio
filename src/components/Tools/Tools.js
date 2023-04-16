@@ -10,8 +10,15 @@ import { SiExpress, SiPostgresql, SiMongodb } from "react-icons/si";
 
 const Tools = () => {
     return (
-        <div className='tools-container section__margin'>
-            <div className='tools-heading'>
+        <div
+            className='tools-container section__margin'
+            id='skills'
+            data-aos="fade-right"
+            data-aos-easing="ease-in"
+            data-aos-delay="50"
+            data-aos-duration="400"
+        >
+            <div className='tools-heading' >
                 <h1 className='gradient__text'>Skills</h1>
             </div>
             <div className='aboutMe-feature'>

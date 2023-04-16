@@ -1,11 +1,8 @@
 // import React, { useState } from 'react';
 import './About.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faChevronDown, faChevronUp, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 //import useCollapse from 'react-collapsed';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
 import { FaGraduationCap } from "react-icons/fa";
 import { BsPersonFillGear } from "react-icons/bs";
 import { MdWorkHistory } from "react-icons/md";
@@ -72,7 +69,7 @@ const About = () => {
                             <h3>Public Procurement Officer</h3>
                             <h4>City of Zagreb, Croatia</h4>
                             <h5>Apprenticeship</h5>
-                            <p>Documentation officer in the public procurement procedures</p>
+                            <h6>Documentation officer in the public procurement procedures</h6>
                         </VerticalTimelineElement>
 
                         <VerticalTimelineElement

@@ -114,11 +114,36 @@
         font-size: 28px;
         line-height: 40px;
     }
+
+    .experience h3 {
+        font-size: 13px;
+    }
+
+    .experience h4 {
+        font-size: 12px;
+    }
+
+    .experience h5 {
+        font-size: 10px;
+    }
+
 }
 
 @media screen and (max-width: 350px) {
     .aboutMe-container {
         margin: 1rem 0;
         min-width: 100%;
+    }
+
+    .experience h3 {
+        font-size: 12px;
+    }
+
+    .experience h4 {
+        font-size: 10px;
+    }
+
+    .experience h5 {
+        font-size: 9px;
     }
 }

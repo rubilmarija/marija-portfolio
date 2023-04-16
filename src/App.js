@@ -5,6 +5,10 @@ import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Tools from './components/Tools/Tools';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

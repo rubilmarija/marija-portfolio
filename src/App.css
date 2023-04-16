@@ -1,17 +1,13 @@
 * {
   box-sizing: border-box;
   padding: 0;
-
   scroll-behavior: smooth;
-
 }
 
 
 body {
   background: var(--color-bg);
   margin: 1rem;
-
-
 }
 
 a {
