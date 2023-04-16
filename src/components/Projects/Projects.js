@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import ProjectsCard from './ProjectsCard';
 import './Projects.css';
 import portfolio from '../../assets/portfolio.json';
@@ -6,14 +6,14 @@ import portfolio from '../../assets/portfolio.json';
 
 const Projects = () => {
     return (
-        <div className='projects-container section__margin'>
+        <div className='projects-container section__margin' id='projects'>
             <div className='projects-heading'>
                 <h1 className='gradient__text'>Projects</h1>
             </div>
             <div>
 
             </div>
-            <div className='cards-container'>
+            <div className='cards-container' >
                 {portfolio.map((product, index) => {
                     return (
                         <ProjectsCard

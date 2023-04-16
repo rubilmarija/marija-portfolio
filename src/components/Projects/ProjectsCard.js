@@ -5,7 +5,13 @@ import { BsPlayBtn } from 'react-icons/bs';
 
 const ProjectsCard = ({ title, image, description, github, site }) => {
     return (
-        <div class="card">
+        <div
+            class="card"
+            data-aos="flip-left"
+            data-aos-easing="ease-in"
+            data-aos-delay="50"
+            data-aos-duration="400"
+        >
             <img src={image} alt='img' />
             <div className='card-info'>
                 <h2>{title}</h2>

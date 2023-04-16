@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Abolish the Monarchy Game",
     "image": "./assets/abolishthemonarchy.png",
-    "description": "Group project",
+    "description": "Group project - JavaScript HTML CSS",
     "github": "https://github.com/rubilmarija/Aabolish-the-monarchy.git",
     "site": "https://abolishthemonarchy.netlify.app/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Expense Planning Tracker",
     "image": "./assets/expensetracker.png",
-    "description": "Group project - React",
+    "description": "Group project - React Figma",
     "github": "https://github.com/rubilmarija/expense-planning-tracker.git",
     "site": "https://graceful-gecko-f0835c.netlify.app/"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Inner Journeys Website",
     "image": "./assets/innerjourneys.png",
-    "description": "Group project - React",
+    "description": "Group project - React Figma",
     "github": "https://github.com/rubilmarija/inner-journeys-collab.git",
     "site": "https://hilarious-kitten-abef04.netlify.app/"
   },
