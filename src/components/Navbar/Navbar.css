@@ -55,6 +55,12 @@
   letter-spacing: 2px;
   transform: translateY(-2px) translateX(-3px);
 }
+.side-link:hover {
+  color: var(--color-blog);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  transform: translateY(-2px) translateX(-3px);
+}
 
 .navbar-links_container,
 .navbar-sign,
@@ -110,18 +116,15 @@
   flex-direction: column;
   text-align: end;
   background: #deedf0;
-  padding: 2rem;
+  padding: 1rem;
   position: absolute;
   top: 40px;
   right: 0;
   margin-top: 1rem;
-  min-width: 210px;
+  margin: 1rem 0;
+  min-width: 200px;
   border-radius: 16px;
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
-}
-
-.navbar-menu_container {
-  margin: 1rem 0;
 }
 
 .navbar-menu_container-links div {

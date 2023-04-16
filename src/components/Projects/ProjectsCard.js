@@ -16,8 +16,8 @@ const ProjectsCard = ({ title, image, description, github, site }) => {
             <div className='card-info'>
                 <h2>{title}</h2>
                 <p>{description}</p>
-                <a href={github} className='btn-source'><BiCodeAlt /></a>
-                <a href={site} className='btn-site' > <BsPlayBtn /> </a>
+                <a href={github} className='btn-source' target='_blank'><BiCodeAlt /></a>
+                <a href={site} className='btn-site' target='_blank' > <BsPlayBtn /> </a>
             </div>
         </div >
     )

@@ -4,7 +4,7 @@ import blob from '../../assets/marija.png'
 
 const Hero = () => {
     return (
-        <div className='header section__padding' id='home'>
+        <div className='header section__padding' id='aboutMe'>
             <div className='header-content'>
                 <h1
                     className='gradient__text'
@@ -25,7 +25,7 @@ const Hero = () => {
                         data-aos-duration="900"
                     />
                 </div>
-                <div
+                <div className='header-text'
                     data-aos="fade-right"
                     data-aos-easing="ease-in"
                     data-aos-delay="50"

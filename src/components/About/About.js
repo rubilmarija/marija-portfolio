@@ -13,10 +13,10 @@ const About = () => {
     // const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
 
     return (
-        <div className='aboutMe section__margin' id='aboutMe'>
+        <div className='aboutMe section__margin' id='experience'>
 
             <div className='aboutMe-heading'>
-                {/* <h1 className='gradient__text'>About me</h1> */}
+                <h1 className='gradient__text'>Experience</h1>
             </div>
 
             {/* <div className='aboutMe-feature'>
@@ -34,11 +34,7 @@ const About = () => {
                 {/* <section {...getCollapseProps()}> */}
 
                 <div className='experience'>
-                    <div>
-                        <p>
 
-                        </p>
-                    </div>
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className='timeline-el__education'

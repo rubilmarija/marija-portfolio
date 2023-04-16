@@ -20,6 +20,7 @@ const Navbar = () => {
                 <div className='navbar-links_container bounce-in-top'>
                     <div className='navbar-links_logo'><Link activeClass="active" to="home" spy={true} smooth={true}><FaCat /></Link></div>
                     <div className='link'><Link to="aboutMe" spy={true} smooth={true}>About me</Link></div>
+                    <div className='link'><Link to='experience' spy={true} smooth={true}>Experience</Link></div>
                     <div className='link'><Link to='projects' spy={true} smooth={true}>Projects</Link></div>
                     <div className='link'><Link to='skills' spy={true} smooth={true}>Skills</Link></div>
                     <div className='link'><Link to='footer' spy={true} smooth={true}>Let's connect</Link></div>
@@ -37,10 +38,11 @@ const Navbar = () => {
                     <div className='navbar-menu_container scale-up-center'>
                         <div className='navbar-menu_container-links'>
                             <div className='navbar-links_logo'><FaCat /></div>
-                            <div><Link to="aboutMe" spy={true} smooth={true}>About me</Link></div>
-                            <div><Link to='projects' spy={true} smooth={true}>Projects</Link></div>
-                            <div><Link to='skills' spy={true} smooth={true}>Skills</Link></div>
-                            <div><Link to='footer' spy={true} smooth={true}>Let's connect</Link></div>
+                            <div className='side-link'><Link to="aboutMe" spy={true} smooth={true}>About me</Link></div>
+                            <div className='side-link'><Link to='experience' spy={true} smooth={true}>Experience</Link></div>
+                            <div className='side-link'><Link to='projects' spy={true} smooth={true}>Projects</Link></div>
+                            <div className='side-link'><Link to='skills' spy={true} smooth={true}>Skills</Link></div>
+                            <div className='side-link'><Link to='footer' spy={true} smooth={true}>Let's connect</Link></div>
                             <div className='navbar-menu_container-links-sign'>
                                 <button type='button'><a href="mailto: marija.rubil@hyperisland.se">Contact me</a></button>
                             </div>
@@ -48,7 +50,7 @@ const Navbar = () => {
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     )
 }
 

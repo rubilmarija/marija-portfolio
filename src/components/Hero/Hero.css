@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .header-content {
@@ -9,7 +11,11 @@
     align-items: flex-start;
     flex-direction: column;
     margin-right: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0;
+}
+
+.header-text {
+    margin-bottom: 0;
 }
 
 .header-content h1 {
