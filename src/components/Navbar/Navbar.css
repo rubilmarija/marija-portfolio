@@ -51,7 +51,7 @@
 
 .link:hover {
   color: var(--color-blog);
-  font-weight: bolder;
+  font-size: 20px;
   letter-spacing: 2px;
   transform: translateY(-2px) translateX(-3px);
 }
@@ -65,9 +65,8 @@
 .navbar-links_container,
 .navbar-sign,
 .navbar-menu_container {
-  color: salmon;
+  color: var(--color-text);
   font-family: var(--font-family);
-  font-weight: 500;
   font-size: 18px;
   line-height: 25px;
   text-transform: capitalize;
