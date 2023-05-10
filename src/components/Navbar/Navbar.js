@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className='navbar-links'>
                 <div className='navbar-links_container bounce-in-top'>
                     <div className='navbar-links_logo'>
-                        <Link activeClass="active" to={'home'} spy={true} smooth={true}>M</Link></div>
+                        <Link activeClass="active" to={'/'} spy={true} smooth={true}>M</Link></div>
                     <div className='link'><Link to={'about'} spy={true} smooth={true}>About me</Link></div>
                     {/* <div className='link'><Link to='experience' spy={true} smooth={true}>Experience</Link></div> */}
                     <div className='link'><Link to={'skills'} spy={true} smooth={true}>Skills</Link></div>
