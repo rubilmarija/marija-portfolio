@@ -1,28 +1,41 @@
-import './App.css';
-import Hero from './components/Hero/Hero';
+import React from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Routes,
+  Redirect,
+} from "react-router-dom";
+
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
-import Tools from './components/Tools/Tools';
+
+import Home from './pages/Home';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import MyProjects from './pages/MyProjects';
+
+// import ErrorPage from './ErrorPage';
+// import Root from './routes/Root';
+import './App.css';
+
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css';
 AOS.init();
 
 function App() {
   return (
-    <div className="App">
-      <div className='gradient__bg'>
-        <Navbar />
-        <Hero />
+    <div className='App'>
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path='/home' element={<Home />} />
+          <Route path='about' element={<About />} />
+          <Route path='skills' element={<Skills />} />
+          <Route path='projects' element={<MyProjects />} />
+        </Routes>
       </div>
-      <About />
-      <Projects />
-      <Tools />
-      <Footer />
     </div>
-  );
+  )
 }
-
 export default App;

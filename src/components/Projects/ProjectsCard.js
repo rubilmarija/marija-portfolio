@@ -2,6 +2,7 @@ import React from 'react';
 import './ProjectsCard.css';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsPlayBtn } from 'react-icons/bs';
+import { CgFileDocument } from 'react-icons/cg'
 
 const ProjectsCard = ({ title, image, description, github, site }) => {
     return (
@@ -16,6 +17,7 @@ const ProjectsCard = ({ title, image, description, github, site }) => {
             <div className='card-info'>
                 <h2>{title}</h2>
                 <p>{description}</p>
+                <a href="#" className='btn-source'><CgFileDocument /></a>
                 <a href={github} className='btn-source' target='_blank'><BiCodeAlt /></a>
                 <a href={site} className='btn-site' target='_blank' > <BsPlayBtn /> </a>
             </div>

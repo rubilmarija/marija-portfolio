@@ -3,13 +3,18 @@
     align-items: center;
     padding: 1rem;
     /* margin: 2rem 1rem 2rem 4.5rem; */
-    margin: 20px;
+    margin: 1rem;
     flex-direction: row;
     font-family: var(--font-family);
     border-radius: 24px;
-    background-color: var(--color-bg);
-    width: 220px;
+    width: 190px;
     box-shadow: 12px 8px 8px rgb(0 0 0 / 16%);
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
 }
 
 .card img {
@@ -37,12 +42,13 @@
 }
 
 .btn-source, .btn-site {
-    margin: 1rem;
+    margin: 0.6rem;
     cursor: pointer;
     color: var(--color-blog);
     font-size: 30px;
+    
 }
-
+/* 
 .btn-source:hover {
     color: var(--color-subtext);
     font-size: 40px;
@@ -51,7 +57,7 @@
 .btn-site:hover {
     color: var(--color-subtext);
     font-size: 40px;
-}
+} */
 
 /* Media Queries */
 

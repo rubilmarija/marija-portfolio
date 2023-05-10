@@ -1,13 +1,22 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=PT+Mono&family=Sedgwick+Ave&family=Source+Code+Pro:ital,wght@1,400;1,500&family=Space+Mono&display=swap");
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+ @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=PT+Mono&family=Sedgwick+Ave&family=Source+Code+Pro:ital,wght@1,400;1,500&family=Space+Mono&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
 
 :root {
   --font-family: "Comfortaa", cursive;
 
-  --gradient-text: linear-gradient(207deg,
-      rgba(142, 151, 120, 1) 28%,
-      rgba(17, 50, 77, 1) 100%);
+  --font-family: "Arsenal";
+
+  --gradient-text: 
+    linear-gradient(to right, #141e30, #243b55);
   --gradient-bar: linear-gradient(207deg,
-      rgba(142, 151, 120, 1) 28%,
+      #8e9778 28%,
       rgba(17, 50, 77, 1) 100%);
 
   --color-bg: #fff5eb;

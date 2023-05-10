@@ -38,29 +38,5 @@
     "description": "Group project - React Figma",
     "github": "https://github.com/rubilmarija/inner-journeys-collab.git",
     "site": "https://hilarious-kitten-abef04.netlify.app/"
-  },
-  {
-    "id": 6,
-    "title": "Gluten free Cookbook",
-    "image": "./assets/glutenfree.png",
-    "description": "Vanilla JavaScript HTML CSS",
-    "github": "https://github.com/rubilmarija/Recipes-website.git",
-    "site": "https://marijasglutenfreecookbook.netlify.app/"
-  },
-  {
-    "id": 7,
-    "title": "Family Rubil Cookbook",
-    "image": "./assets/workingonit.png",
-    "description": "Work in progress",
-    "github": "https://github.com/rubilmarija/Recipes-Cookbook-Blog",
-    "site": ""
-  },
-  {
-    "id": 8,
-    "title": "Weather App",
-    "image": "./assets/workingonit.png",
-    "description": "Work in progress",
-    "github": "https://github.com/rubilmarija/Weather-App.git",
-    "site": ""
   }
 ]

@@ -9,9 +9,10 @@ const Projects = () => {
         <div className='projects-container section__margin' id='projects'>
             <div className='projects-heading'>
                 <h1 className='gradient__text'>Projects</h1>
+                <p> Here I have displayed some of my projects as well as project that I worked on with my classmates</p>
+
             </div>
             <div>
-
             </div>
             <div className='cards-container' >
                 {portfolio.map((product, index) => {
