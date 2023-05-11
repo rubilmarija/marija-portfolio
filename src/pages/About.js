@@ -1,25 +1,21 @@
 import React from 'react';
 import AboutMe from '../components/About/AboutMe'
 
-const downloadCV = () => {
-    fetch('Marija_Rubil_CV.pdf').then(response => {
-        response.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'Marija_Rubil_CV.pdf';
-            alink.click();
-        })
-    })
-}
+import myCV from '../assets/Marija_Rubil_CV.pdf';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
         <>
             <AboutMe />
 
-            <button className='cv-btn' onClick={downloadCV}>Download my CV</button>
+            <Link
+                to={myCV}
+                download='Marija_Rubil_CV.pdf'
+                target='_blank'
+                rel="noreferrer">
+                <button className='cv-btn' >Download my CV</button>
+            </Link>
         </>
     )
 }
