@@ -39,11 +39,13 @@
     display: flex;
     flex-direction: column;
     max-width: 60rem;
+    margin-bottom: 2rem;
 }
 
 .aboutMe-feature p {
     color: var(--color-blog);
     margin-left: 1rem;
+    font-size: 18px;
 }
 
 .expand-section__about-me {

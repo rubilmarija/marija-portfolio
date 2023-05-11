@@ -1,22 +1,12 @@
 import React from 'react';
 import './Hero.css';
 import blob from '../../assets/myst.png'
+import { TbBrandLinkedin, TbBrandGithub } from 'react-icons/tb';
+
+import myCV from '../../assets/Marija_Rubil_CV.pdf';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
-
-    const downloadCV = () => {
-        fetch('Marija_Rubil_CV.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Marija_Rubil_CV.pdf';
-                alink.click();
-            })
-        })
-    }
-
     return (
         <div className='header section__padding' id='aboutMe'>
             <div className='header-content'>
@@ -58,7 +48,22 @@ const Hero = () => {
                 />
             </div>
             <div className='btn-container'>
-                <button className='cv-btn' onClick={downloadCV}>Download my CV</button>
+                <Link
+                    to={myCV}
+                    download='Marija_Rubil_CV.pdf'
+                    target='_blank'
+                    rel="noreferrer">
+                    <button className='cv-btn' >Download my CV</button>
+                </Link>
+
+                <div className='social-links'>
+                    <div className='linkedin'>
+                        <a href="https://github.com/rubilmarija" target='_blank'><TbBrandLinkedin /></a>
+                    </div>
+                    <div className='github'>
+                        <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank' ><TbBrandGithub /></a>
+                    </div>
+                </div>
             </div>
         </div>
     )

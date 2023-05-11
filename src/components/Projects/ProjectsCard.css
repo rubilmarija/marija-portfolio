@@ -46,18 +46,17 @@
     cursor: pointer;
     color: var(--color-blog);
     font-size: 30px;
-    
 }
-/* 
+ 
 .btn-source:hover {
     color: var(--color-subtext);
-    font-size: 40px;
+    
 }
 
 .btn-site:hover {
     color: var(--color-subtext);
-    font-size: 40px;
-} */
+ 
+}
 
 /* Media Queries */
 
@@ -77,4 +76,13 @@
     .card {
         width: 180px;
     }
+
+        .btn-source,
+        .btn-site {
+            margin: 0.4rem;
+            margin-left: 0.6rem;
+            cursor: pointer;
+            color: var(--color-blog);
+            font-size: 25px;
+        }
 }

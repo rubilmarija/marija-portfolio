@@ -13,8 +13,9 @@ body {
 }
 
 .App {
-    padding: 0.5rem;
-    margin: 1.4rem;
+    padding: 0.4rem;
+    margin: 1.6rem;
+    margin-top: 2.2rem;
     background: rgba(255, 255, 255, 0.09);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -217,3 +218,42 @@ a {
     margin: 4rem 2rem;
   }
 } */
+
+/* Media Queries */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  body {
+    background-image: url(./assets/peach.jpg);
+    width: auto;
+    height: auto;
+    background-size: cover;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+      background-image: url(./assets/peach.jpg);
+      width: auto;
+      height: auto;
+      background-size: 100% 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-image: url(./assets/peach.jpg);
+    width: auto;
+    height: auto;
+    background-size: 100% 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+      background-image: url(./assets/peach.jpg);
+      width: auto;
+      height: auto;
+      background-size: 100% 100%;
+    }
+}

@@ -51,6 +51,8 @@ img {
 }
 
 .btn-container {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 1rem;
 }
 
@@ -73,6 +75,21 @@ img {
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
     border: 1px solid rgba(255, 255, 255, 0.38);
+}
+
+.social-links {
+    display: flex;
+    font-size: 40px;
+    color: var(--color-text);
+}
+
+.linkedin {
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+.github {
+    margin: 1rem;
 }
 
 /* Media Queries */
@@ -100,10 +117,10 @@ img {
     
     .btn-container {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         margin-bottom: 1rem;
-        margin-right: 2rem;
+        /* margin-right: 3rem; */
     }
 }
 
@@ -139,7 +156,7 @@ img {
         justify-content: center;
         align-items: center;
         margin-bottom: 1rem;
-        margin-right: 2rem;
+        /* margin-right: 2rem; */
     }
 }
 
@@ -151,11 +168,12 @@ img {
 
     .header-content {
         margin: 0;
+        margin-bottom: 1.6rem;
     }
 
     .header-content h1 {
-        font-size: 40px;
-        line-height: 54px;
+        font-size: 60px;
+        line-height: 80px;
     }
     
     .header-content p {
@@ -166,7 +184,7 @@ img {
 
     .header-image {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 2.4rem;
     }
 
     .btn-container {
@@ -186,11 +204,12 @@ img {
 
     .header-content {
         margin: 0;
+        margin-bottom: 1.6rem;
     }
 
     .header-content h1 {
-        font-size: 36px;
-        line-height: 48px;
+        font-size: 60px;
+        line-height: 80px;
     }
 
     .header-content p {
@@ -201,13 +220,29 @@ img {
 
     .header-image {
         margin-top: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 2.4rem;
     }
 
   .btn-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-right: 2.4rem;
+      flex-direction: column;
+      margin-right: 2.6rem;
+  }
+
+  .social-links {
+      display: flex;
+      font-size: 40px;
+      color: var(--color-text);
+  }
+
+  .linkedin {
+      margin: 1rem;
+      margin-left: 3.4rem;
+  }
+
+  .github {
+      margin: 1rem;
   }
 }

@@ -11,8 +11,8 @@
         max-width: 510px;
 }
 .projects-heading p {
-        font-size: 14px;
-        font-weight: 600;
+        font-size: 16px;
+        font-weight: normal;
         font-family: var(--font-family);
         color: var(--color-text);
 }
@@ -23,6 +23,15 @@
         grid-template-rows: 1fr 1fr;
 }
 
+.git-container {
+        display: flex;
+}
+.git {
+        font-size: 40px;
+        color: var(--color-text);
+        margin-left: 0.6rem;
+        margin-top: 0.6rem;
+}
 
 /* Media Queries */
 
@@ -45,9 +54,9 @@
                 grid-template-rows: 1fr 1fr;
                 align-items: normal;
                 /* display: flex;
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center; */
+                flex-direction: column;
+                justify-content: center;
+                align-items: center; */
         }
 }
 

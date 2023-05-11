@@ -37,8 +37,26 @@ const Skills = () => {
     };
 
     return (
-        <div>
-            <h1 className='gradient__text'></h1>
+        <div className='skills'>
+            <div className='title-container'>
+                <h1 className='title'
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in"
+                    data-aos-delay="50"
+                    data-aos-duration="400">Skills</h1>
+            </div>
+            <div className='skills-content'
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-delay="50"
+                data-aos-duration="900">
+                <p>
+                    Currently I am a Frontend Developer student at Hyper Island.
+                </p>
+                <p>
+                    Through my education at Hyper Island I have gained valuable new skills and further developed ones that I have achieved along my previous education in economics and previous working experience.
+                </p>
+            </div>
             <div className='skills-carousel'>
                 <AliceCarousel
                     autoPlay
@@ -49,24 +67,80 @@ const Skills = () => {
                     paddingLeft={50}
 
                 >
-                    <img src={programmer} className="sliderimg" />
-                    <img src={webdev} className="sliderimg" />
-                    <img src={webdevelopment} className="sliderimg" />
-                    <img src={jshtmlcss} className="sliderimg" />
-                    <img src={react} className="sliderimg" />
-                    <img src={designing} className="sliderimg" />
-                    <img src={designsprint} className="sliderimg" />
-                    <img src={ideation} className="sliderimg" />
-                    <img src={pairprogramming} className="sliderimg" />
-                    <img src={prototyping} className="sliderimg" />
-                    <img src={scrum} className="sliderimg" />
-                    <img src={team} className="sliderimg" />
-                    <img src={pairprogramming1} className="sliderimg" />
-                    <img src={teamwork} className="sliderimg" />
-                    <img src={timemngmt} className="sliderimg" />
-                    <img src={userflow} className="sliderimg" />
-                    <img src={versioncontrol} className="sliderimg" />
-                    <img src={wireframing} className="sliderimg" />
+                    {/* <div>
+                        <img src={programmer} className="sliderimg" />
+                        <p>Web Development</p>
+                    </div> */}
+                    <div>
+                        <img src={webdevelopment} className="sliderimg" />
+                        <p>Web Development</p>
+                    </div>
+                    <div>
+                        <img src={jshtmlcss} className="sliderimg" />
+                        <p>JavaScript HTML CSS</p>
+                    </div>
+                    <div>
+                        <img src={react} className="sliderimg" />
+                        <p>React</p>
+                    </div>
+                    <div>
+                        <img src={versioncontrol} className="sliderimg" />
+                        <p>Version Control</p>
+                    </div>
+                    <div>
+                        <img src={pairprogramming1} className="sliderimg" />
+                        <p>Pair Programming</p>
+                    </div>
+                    <div>
+                        <img src={webdev} className="sliderimg" />
+                        <p>Responsive Web Design</p>
+                    </div>
+                    <div>
+                        <img src={designing} className="sliderimg" />
+                        <p>Figma</p>
+                    </div>
+                    <div>
+                        <img src={ideation} className="sliderimg" />
+                        <p>Ideation</p>
+                    </div>
+                    <div>
+                        <img src={designsprint} className="sliderimg" />
+                        <p>Design Sprint</p>
+                    </div>
+                    <div>
+                        <img src={userflow} className="sliderimg" />
+                        <p>User Flow</p>
+                    </div>
+                    <div>
+                        <img src={prototyping} className="sliderimg" />
+                        <p>Prototyping Process</p>
+                    </div>
+                    <div>
+                        <img src={wireframing} className="sliderimg" />
+                        <p>Wireframing</p>
+                    </div>
+                    <div>
+                        <img src={team} className="sliderimg" />
+                        <p>Teamwork</p>
+                    </div>
+                    <div>
+                        <img src={teamwork} className="sliderimg" />
+                        <p>Agile Project Management</p>
+                    </div>
+                    {/* <div>
+                        <img src={pairprogramming} className="sliderimg" />
+                        <p>Pair Programming</p>
+                    </div> */}
+
+                    <div>
+                        <img src={scrum} className="sliderimg" />
+                        <p>Scrum Methodology</p>
+                    </div>
+                    <div>
+                        <img src={timemngmt} className="sliderimg" />
+                        <p>Time Management</p>
+                    </div>
+
                 </AliceCarousel>
             </div>
         </div>

@@ -16,10 +16,18 @@ const About = () => {
         <div className='aboutMe section__margin' id='experience'>
 
             <div className='aboutMe-heading'>
-                <h1 className='gradient__text'>Get to know me better</h1>
+                <h1 className='gradient__text'
+                    data-aos="fade-right"
+                    data-aos-easing="ease-in"
+                    data-aos-delay="50"
+                    data-aos-duration="400">Get to know me better</h1>
             </div>
 
-            <div className='aboutMe-feature'>
+            <div className='aboutMe-feature'
+                data-aos="fade-right"
+                data-aos-easing="ease-in"
+                data-aos-delay="50"
+                data-aos-duration="900">
 
                 <p>As a proactive and organized individual with a background in administration and public procurement, I have a keen eye for detail and capable to administer numerous tasks to meet tight deadlines without compromising quality.</p>
                 <p>
