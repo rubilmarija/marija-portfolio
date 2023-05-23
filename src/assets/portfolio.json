@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "To-Do App",
+    "image": "./assets/todo.png",
+    "description": "JavaScript Node.js Express PostgreSql",
+    "github": "https://github.com/rubilmarija/todo-app",
+    "site": ""
+  },
+  {
+    "id": 2,
     "title": "X-Files Fan-page",
     "image": "./assets/cow-xfiles.png",
     "description": "JavaScript HTML CSS",
@@ -8,7 +16,7 @@
     "site": "https://harmonious-wisp-d18f7a.netlify.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Abolish the Monarchy Game",
     "image": "./assets/abolishthemonarchy.png",
     "description": "Group project - JavaScript HTML CSS",
@@ -16,7 +24,7 @@
     "site": "https://abolishthemonarchy.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Expense Planning Tracker",
     "image": "./assets/expensetracker.png",
     "description": "Group project - React Figma",
@@ -24,7 +32,7 @@
     "site": "https://graceful-gecko-f0835c.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Workout Tracker",
     "description": "MERN Stack",
     "image": "./assets/workout.png",
@@ -32,7 +40,7 @@
     "site": "https://github.com/rubilmarija/MERN-Stack-Workout-Tracker"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Inner Journeys Website",
     "image": "./assets/innerjourneys.png",
     "description": "Group project - React Figma",
