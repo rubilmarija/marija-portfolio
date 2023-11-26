@@ -24,7 +24,7 @@ const Projects = () => {
                 <div className='git-container'>
                     <p>Check out more projects on my GitHub</p>
                     <div className='git'>
-                        <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank' ><TbBrandGithub /></a>
+                        <a href="https://github.com/rubilmarija" target='_blank' ><TbBrandGithub /></a>
                     </div>
                 </div>
 

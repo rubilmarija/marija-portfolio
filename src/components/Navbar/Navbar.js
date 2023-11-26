@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 // import { FaCat } from 'react-icons/fa';
@@ -30,7 +30,7 @@ const Navbar = () => {
                             </svg>
                         </div>
                     </div>
-                    <span><a href="mailto: marija.rubil@hyperisland.se">Let's Connect</a></span>
+                    <button><a href="mailto: marija.rubil@hyperisland.se">Let's Connect</a></button>
                 </button>
 
 

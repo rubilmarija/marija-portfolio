@@ -1,30 +1,14 @@
 [
   {
     "id": 1,
-    "title": "To-Do App",
+    "title": "MERN Stack To-do App",
     "image": "./assets/todo.png",
-    "description": "JavaScript Node.js Express PostgreSql",
-    "github": "https://github.com/rubilmarija/todo-app",
+    "description": "MongoDB Express React Node",
+    "github": "https://github.com/rubilmarija/MERN-To-do",
     "site": ""
   },
   {
     "id": 2,
-    "title": "X-Files Fan-page",
-    "image": "./assets/cow-xfiles.png",
-    "description": "JavaScript HTML CSS",
-    "github": "https://github.com/rubilmarija/90-s-website.git",
-    "site": "https://harmonious-wisp-d18f7a.netlify.app/"
-  },
-  {
-    "id": 3,
-    "title": "Abolish the Monarchy Game",
-    "image": "./assets/abolishthemonarchy.png",
-    "description": "Group project - JavaScript HTML CSS",
-    "github": "https://github.com/rubilmarija/Aabolish-the-monarchy.git",
-    "site": "https://abolishthemonarchy.netlify.app/"
-  },
-  {
-    "id": 4,
     "title": "Expense Planning Tracker",
     "image": "./assets/expensetracker.png",
     "description": "Group project - React Figma",
@@ -32,19 +16,35 @@
     "site": "https://graceful-gecko-f0835c.netlify.app/"
   },
   {
+    "id": 3,
+    "title": "Design for the User",
+    "image": "./assets/Skärmbild.png",
+    "description": "Group project - Implementing UX & UI design in Figma",
+    "github": "https://www.figma.com/file/FRpdZcWJ52EJbr42wN1wzI/Prototype-Kaspian-TEAM-1?type=design&node-id=0%3A1&mode=design&t=EUvrjSW692PuhNMC-1",
+    "site": ""
+  },
+  {
+    "id": 4,
+    "title": "Abolish the Monarchy Game",
+    "image": "./assets/abolishthemonarchy.png",
+    "description": "Group project - JavaScript HTML CSS",
+    "github": "https://github.com/rubilmarija/Aabolish-the-monarchy.git",
+    "site": "https://abolishthemonarchy.netlify.app/"
+  },
+  {
     "id": 5,
-    "title": "Workout Tracker",
-    "description": "MERN Stack",
-    "image": "./assets/workout.png",
-    "github": "https://github.com/rubilmarija/MERN-Stack-Workout-Tracker",
-    "site": "https://github.com/rubilmarija/MERN-Stack-Workout-Tracker"
+    "title": "Family Rubil Cookbook",
+    "image": "./assets/pie.jpg",
+    "description": "React MySQL Sass",
+    "github": "https://github.com/rubilmarija/family-cookbook",
+    "site": ""
   },
   {
     "id": 6,
-    "title": "Inner Journeys Website",
-    "image": "./assets/innerjourneys.png",
-    "description": "Group project - React Figma",
-    "github": "https://github.com/rubilmarija/inner-journeys-collab.git",
-    "site": "https://hilarious-kitten-abef04.netlify.app/"
+    "title": "X-Files Fan-page",
+    "image": "./assets/cow-xfiles.png",
+    "description": "JavaScript HTML CSS",
+    "github": "https://github.com/rubilmarija/90-s-website.git",
+    "site": "https://harmonious-wisp-d18f7a.netlify.app/"
   }
 ]

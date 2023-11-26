@@ -58,10 +58,10 @@ const Hero = () => {
 
                 <div className='social-links'>
                     <div className='linkedin'>
-                        <a href="https://github.com/rubilmarija" target='_blank'><TbBrandLinkedin /></a>
+                        <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank'><TbBrandLinkedin /></a>
                     </div>
                     <div className='github'>
-                        <a href="https://www.linkedin.com/in/rubilmarija/" target='_blank' ><TbBrandGithub /></a>
+                        <a href="https://github.com/rubilmarija" target='_blank' ><TbBrandGithub /></a>
                     </div>
                 </div>
             </div>

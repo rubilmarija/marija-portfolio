@@ -88,9 +88,9 @@
     border: 1px solid rgba(255, 255, 255, 0.38);
 }
 
-button span {
+button  {
   display: block;
-  margin-left: 0.3em;
+  margin-left: 1.5em;
   transition: all 0.3s ease-in-out;
 }
 
