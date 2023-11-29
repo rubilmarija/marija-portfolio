@@ -3,7 +3,7 @@ import './Hero.css';
 import blob from '../../assets/myst.png'
 import { TbBrandLinkedin, TbBrandGithub } from 'react-icons/tb';
 
-import myCV from '../../assets/Marija_Rubil_CV.pdf';
+import myCV from '../../assets/MarijaRubilCV.pdf';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className='btn-container'>
                 <Link
                     to={myCV}
-                    download='Marija_Rubil_CV.pdf'
+                    download='MarijaRubilCV.pdf'
                     target='_blank'
                     rel="noreferrer">
                     <button className='cv-btn' >Download my CV</button>

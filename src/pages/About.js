@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutMe from '../components/About/AboutMe'
 
-import myCV from '../assets/Marija_Rubil_CV.pdf';
+import myCV from '../assets/MarijaRubilCV.pdf';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
 
             <Link
                 to={myCV}
-                download='Marija_Rubil_CV.pdf'
+                download='MarijaRubilCV.pdf'
                 target='_blank'
                 rel="noreferrer">
                 <button className='cv-btn' >Download my CV</button>
